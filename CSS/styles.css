@@ -177,7 +177,6 @@ footer {
     /* section: snippets */
     .container-snippets {
         display: grid;
-        /* gap: 4rem; */
         grid-template-areas: 
         "img bpt"
         ;
@@ -188,7 +187,6 @@ footer {
         grid-area: img;
         display: flex;
         justify-content: flex-start;
-
         position: relative;
         left: -6rem;
     }
